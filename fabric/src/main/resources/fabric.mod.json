@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "opacwelcomesuppressor",
+  "version": "${version}",
+  "name": "OPAC Welcome Suppressor",
+  "description": "Suppress OPAC Claim Welcome Messages",
+  "authors": [
+    "murder_spagurder"
+  ],
+  "contact": {
+    "sources": "https://github.com/murderspagurder/opac-welcome-suppressor"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.murderspagurder.ows.fabric.OpacWelcomeSuppressorFabric"
+    ]
+  },
+  "mixins": [
+    "opacwelcomesuppressor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+  }
+}
