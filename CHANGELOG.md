@@ -1,0 +1,4 @@
+- Port to modstitch
+- Extend support to 1.20.x
+- Reversion under semantic versioning
+- Implement gradle publish plugin
