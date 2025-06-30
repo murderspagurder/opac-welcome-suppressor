@@ -169,7 +169,7 @@ val additionalVersions: List<String> = additionalVersionsStr
     ?: emptyList()
 publishMods {
     version = "${baseVersion}+${minecraft}-${loader}"
-    displayName = "OPAC Message Suppressor $baseVersion for $loader $minecraft"
+    displayName = "OPAC Welcome Suppressor $baseVersion for $loader $minecraft"
     file = modstitch.finalJarTask.flatMap { it.archiveFile }
     type = STABLE
     modLoaders.add(loader)
